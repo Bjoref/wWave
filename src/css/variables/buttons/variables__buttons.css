@@ -1,0 +1,20 @@
+:root {
+    --small-radius: 77px;
+    --big-radius: 40px;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.button_small {
+    height: 40px;
+    border-radius: var(--small-radius);
+}
+
+.button_big {
+    border-radius: var(--big-radius);
+}
+

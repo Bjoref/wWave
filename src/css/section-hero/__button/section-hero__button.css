@@ -1,0 +1,6 @@
+.section-hero__button {
+    height: 70px;
+    width: 245px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
