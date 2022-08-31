@@ -154,43 +154,335 @@
     </section>
 
     <section class="section-podcast">
-        <div class="container section-podcast__container">
-            <h2 class="section-podcast__title">
+        <div class="container section-podcast__container d-flex justify-center direction-column">
+            <h2 class="section-podcast__title section-title mb-4">
                 Подкасты
             </h2>
-            <div class="section-podcast__content">
-                <ul class="section-podcast__list">
-                    <li class="section-podcast__item">
-                        <div class="section-podcast__left-content">
-                            <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
-                            <span class="seciton-podcast__date-text">
-                                14 июня
-                            </span>
-                        </div>
-                        <div class="section-podcast__right-content">
-                            <div class="section-podcast__item-text">
-                                <div class="section-podcast__right-content-left">
-                                    <span class="section-podcast__time-text">
-                                        15:43
-                                    </span>
-                                    <h3 class="section-podcast__item-title">
-                                        Европа. XIX век
-                                    </h3>
-                                    <p class="section-podcast__author">
-                                        Дмитрий Гутенберг
-                                    </p>
-                                </div>
-                                <button class="section-podcast__play-button button d-flex align-center">
-                                    <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="Лупа" class="section-podcast__play-img">  
-                                </button>
+            <ul class="section-podcast__list">
+                <li class="section-podcast__item d-flex relative">
+                    <div class="section-podcast__left-content relative">
+                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
+                        <span class="seciton-podcast__date-text absolute">
+                            14 июня
+                        </span>
+                    </div>
+                    <div class="section-podcast__right-content d-flex direction-column">
+                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
+                            <div class="section-podcast__right-content-left">
+                                <span class="section-podcast__time-text">
+                                    15:43
+                                </span>
+                                <h3 class="section-podcast__item-title">
+                                    Европа. XIX век
+                                </h3>
+                                <p class="section-podcast__author">
+                                    Дмитрий Гутенберг
+                                </p>
                             </div>
-                            <div class="section-podcast__footer">
-                                
-                            </div>
+                            <button class="section-podcast__play-button button d-flex align-center">
+                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+                            </button>
                         </div>
-                    </li>
-                </ul>
-            </div>
+                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="section-podcast__item d-flex relative">
+                    <div class="section-podcast__left-content relative">
+                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
+                        <span class="seciton-podcast__date-text absolute">
+                            14 июня
+                        </span>
+                    </div>
+                    <div class="section-podcast__right-content d-flex direction-column">
+                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
+                            <div class="section-podcast__right-content-left">
+                                <span class="section-podcast__time-text">
+                                    15:43
+                                </span>
+                                <h3 class="section-podcast__item-title">
+                                    Европа. XIX век
+                                </h3>
+                                <p class="section-podcast__author">
+                                    Дмитрий Гутенберг
+                                </p>
+                            </div>
+                            <button class="section-podcast__play-button button d-flex align-center">
+                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+                            </button>
+                        </div>
+                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="section-podcast__item d-flex relative">
+                    <div class="section-podcast__left-content relative">
+                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
+                        <span class="seciton-podcast__date-text absolute">
+                            14 июня
+                        </span>
+                    </div>
+                    <div class="section-podcast__right-content d-flex direction-column">
+                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
+                            <div class="section-podcast__right-content-left">
+                                <span class="section-podcast__time-text">
+                                    15:43
+                                </span>
+                                <h3 class="section-podcast__item-title">
+                                    Европа. XIX век
+                                </h3>
+                                <p class="section-podcast__author">
+                                    Дмитрий Гутенберг
+                                </p>
+                            </div>
+                            <button class="section-podcast__play-button button d-flex align-center">
+                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+                            </button>
+                        </div>
+                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="section-podcast__item d-flex relative">
+                    <div class="section-podcast__left-content relative">
+                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
+                        <span class="seciton-podcast__date-text absolute">
+                            14 июня
+                        </span>
+                    </div>
+                    <div class="section-podcast__right-content d-flex direction-column">
+                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
+                            <div class="section-podcast__right-content-left">
+                                <span class="section-podcast__time-text">
+                                    15:43
+                                </span>
+                                <h3 class="section-podcast__item-title">
+                                    Европа. XIX век
+                                </h3>
+                                <p class="section-podcast__author">
+                                    Дмитрий Гутенберг
+                                </p>
+                            </div>
+                            <button class="section-podcast__play-button button d-flex align-center">
+                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+                            </button>
+                        </div>
+                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="section-podcast__item d-flex relative">
+                    <div class="section-podcast__left-content relative">
+                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
+                        <span class="seciton-podcast__date-text absolute">
+                            14 июня
+                        </span>
+                    </div>
+                    <div class="section-podcast__right-content d-flex direction-column">
+                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
+                            <div class="section-podcast__right-content-left">
+                                <span class="section-podcast__time-text">
+                                    15:43
+                                </span>
+                                <h3 class="section-podcast__item-title">
+                                    Европа. XIX век
+                                </h3>
+                                <p class="section-podcast__author">
+                                    Дмитрий Гутенберг
+                                </p>
+                            </div>
+                            <button class="section-podcast__play-button button d-flex align-center">
+                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+                            </button>
+                        </div>
+                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="section-podcast__item d-flex relative">
+                    <div class="section-podcast__left-content relative">
+                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
+                        <span class="seciton-podcast__date-text absolute">
+                            14 июня
+                        </span>
+                    </div>
+                    <div class="section-podcast__right-content d-flex direction-column">
+                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
+                            <div class="section-podcast__right-content-left">
+                                <span class="section-podcast__time-text">
+                                    15:43
+                                </span>
+                                <h3 class="section-podcast__item-title">
+                                    Европа. XIX век
+                                </h3>
+                                <p class="section-podcast__author">
+                                    Дмитрий Гутенберг
+                                </p>
+                            </div>
+                            <button class="section-podcast__play-button button d-flex align-center">
+                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+                            </button>
+                        </div>
+                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="section-podcast__item d-flex relative">
+                    <div class="section-podcast__left-content relative">
+                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
+                        <span class="seciton-podcast__date-text absolute">
+                            14 июня
+                        </span>
+                    </div>
+                    <div class="section-podcast__right-content d-flex direction-column">
+                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
+                            <div class="section-podcast__right-content-left">
+                                <span class="section-podcast__time-text">
+                                    15:43
+                                </span>
+                                <h3 class="section-podcast__item-title">
+                                    Европа. XIX век
+                                </h3>
+                                <p class="section-podcast__author">
+                                    Дмитрий Гутенберг
+                                </p>
+                            </div>
+                            <button class="section-podcast__play-button button d-flex align-center">
+                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+                            </button>
+                        </div>
+                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="section-podcast__item d-flex relative">
+                    <div class="section-podcast__left-content relative">
+                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
+                        <span class="seciton-podcast__date-text absolute">
+                            14 июня
+                        </span>
+                    </div>
+                    <div class="section-podcast__right-content d-flex direction-column">
+                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
+                            <div class="section-podcast__right-content-left">
+                                <span class="section-podcast__time-text">
+                                    15:43
+                                </span>
+                                <h3 class="section-podcast__item-title">
+                                    Европа. XIX век
+                                </h3>
+                                <p class="section-podcast__author">
+                                    Дмитрий Гутенберг
+                                </p>
+                            </div>
+                            <button class="section-podcast__play-button button d-flex align-center">
+                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+                            </button>
+                        </div>
+                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
+                            </li>
+                            <li class="section-podcast__footer-item">
+                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
+                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <button class="section-podcast__button button button_big text-m">
+                Ещё подкасты
+            </button>
 
         </div>
     </section>

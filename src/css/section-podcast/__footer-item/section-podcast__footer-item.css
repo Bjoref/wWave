@@ -1,0 +1,3 @@
+.section-podcast__footer-item:not(:last-child) {
+    margin-right: 30px;
+}

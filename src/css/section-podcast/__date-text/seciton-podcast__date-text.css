@@ -1,0 +1,6 @@
+.seciton-podcast__date-text {
+    left: 0;
+    bottom: 0;
+    padding: 3px 6px;
+    background-color: var( --light-color);
+}

@@ -10,6 +10,10 @@
     margin-top: var(--margin-m);
 }
 
+.mt-4 {
+    margin-top: var(--margin-l);
+}
+
 .mr-1 {
     margin-right: var(--margin-xs);
 }
@@ -20,6 +24,10 @@
 
 .mr-3 {
     margin-right: var(--margin-m);
+}
+
+.mr-4 {
+    margin-right: var(--margin-l);
 }
 
 .mb-1 {
@@ -34,6 +42,10 @@
     margin-bottom: var(--margin-m);
 }
 
+.mb-4 {
+    margin-bottom: var(--margin-l);
+}
+
 .ml-1 {
     margin-left: var(--margin-xs);
 }
@@ -46,8 +58,15 @@
     margin-left: var(--margin-m);
 }
 
+.ml-4 {
+    margin-left: var(--margin-l);
+}
+
 :root {
     --margin-xs: 0.875rem;
     --margin-s: 1.25rem;
+    /* 24px */
     --margin-m: 1.5rem;
+    /* 30px */
+    --margin-l: 1.875rem;
 }

@@ -1,7 +1,9 @@
 :root {
     --text-size-xs: 0.75rem;
     --text-size-s: 1rem;
+    /* 20px */
     --text-size-m: 1.25rem;
+    --title: 3rem;
 }
 
 .text-xs {
@@ -16,7 +18,10 @@
     font-size: var(--text-size-m);
 }
 
-
 .grey-text {
     color: var(--text-grey);
+}
+
+.section-title {
+    font-size: var(--title);
 }

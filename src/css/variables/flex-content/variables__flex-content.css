@@ -6,6 +6,14 @@
     justify-content: center;
 }
 
+.justify-left {
+    justify-content: left;
+}
+
 .align-center {
     align-items: center;
+}
+
+.direction-column {
+    flex-direction: column;
 }

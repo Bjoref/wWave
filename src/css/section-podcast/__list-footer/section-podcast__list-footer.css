@@ -1,0 +1,9 @@
+.section-podcast__list-footer {
+    bottom: 0;
+    left: 112px;
+    width: 432px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    border-top: 1px solid var(--light-color);
+}

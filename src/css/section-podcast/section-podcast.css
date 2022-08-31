@@ -1,0 +1,12 @@
+@import url(./__left-content/section-podcast__left-content.css);
+@import url(./__date-text/seciton-podcast__date-text.css);
+@import url(./__right-content/section-podcast__right-content.css);
+@import url(./__list-footer/section-podcast__list-footer.css);
+@import url(./__item/section-podcast__item.css);
+@import url(./__footer-item/section-podcast__footer-item.css);
+@import url(./__list/section-podcast__list.css);
+@import url(./__button/section-podcast__button.css);
+
+.section-podcast {
+    background-color: var(--light-color);
+}
