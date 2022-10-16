@@ -1,0 +1,7 @@
+.section-broadcast__content-left-footer {
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position-y: left;
+    background-position-x: top;
+    background-image: url(../../../img/section-broadcast/mic.jpg);
+}

@@ -1,0 +1,11 @@
+.section-broadcast__button {
+    width: 160px;
+    height: 40px;
+    padding: 12px 56px;
+    color: var(--black-color);
+    border: 2px solid var(--black-color);
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: 500;
+}

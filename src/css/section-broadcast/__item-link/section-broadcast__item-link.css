@@ -1,0 +1,9 @@
+.section-broadcast__item-link {
+    padding-right: 30px;
+    background-image: url(../../../img/section-broadcast/section-broadcast__arrow_black.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 16px;
+}

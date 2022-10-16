@@ -1,0 +1,6 @@
+.section-broadcast__list {
+    display: grid;
+    grid-template-columns: 255px 255px 255px;
+    grid-column-gap: 1.875rem;
+    grid-row-gap: 1.875rem;
+}
