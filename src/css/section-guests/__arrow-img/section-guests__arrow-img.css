@@ -1,4 +1,3 @@
-.section-guests__arrow-img.closed {
+.section-guests__item.opened-accordion .section-guests__arrow-img {
     rotate: 180deg;
-
 }
