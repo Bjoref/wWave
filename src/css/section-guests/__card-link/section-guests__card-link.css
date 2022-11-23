@@ -1,0 +1,6 @@
+.section-guests__card-link {
+    border-radius: var(--small-radius);
+    width: 160px;
+    height: 40px;
+    border: 2px solid var(--primary-light-color);
+}

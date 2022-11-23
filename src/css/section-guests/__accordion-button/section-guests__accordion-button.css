@@ -1,0 +1,11 @@
+.section-guests__accordion-button {
+    border-bottom: 1px solid var(--primary-light-color);
+    width: 100%;
+    max-width: 730px;
+    margin-right: 30px;
+    padding: 21px 0;
+}
+
+.section-guests__accordion-button:first-child {
+    border-top: 1px solid var(--primary-light-color);
+}

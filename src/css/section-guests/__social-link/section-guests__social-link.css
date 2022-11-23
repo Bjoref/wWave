@@ -1,0 +1,3 @@
+.section-guests__social-link:not(:last-child) {
+    margin-right: 30px;
+}

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+	<script src="./src/js/pages.js" defer></script>
+
     <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/main.css">
     <link rel="stylesheet" href="src/fonts/fonts.css">
@@ -13,587 +15,84 @@
     <!-- ChoicesMin -->
     <link rel="stylesheet" href="./src/plugins/choices.min.css">
 	<link rel="stylesheet" href="./src/plugins/style.css">
-    <script src="./src/plugins/choices.min.js" defer></script>
-	<script src="./src/plugins//script.js" defer></script>
-
 
 </head>
 <body>
-    <header class="header">
-        <div class="header__border">
-            <div class="container header__container d-flex justify-between align-center">
-                <a href="index.html" class="header__link">
-                    <img src="src/img/header/header__logo.svg" alt="Логотип" class="header__logo-img">
-                </a>
-                <nav class="header__nav">
-                    <ul class="header__nav-list d-flex">
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">
-                                Подкасты
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">
-                                Передачи
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">
-                                Гости
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">
-                                Плейлисты
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link" href="#">
-                                О нас
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header__button-group d-flex">
-                    <button class="header__search-button button mr-2">
-                        <img src="src/img/header/header__search-icon.svg" alt="Лупа" class="header__search-img">  
-                    </button>
-                    <button class="header__auth-button button button_small d-flex align-center justify-center">
-                        Вход
-                    </button>
-                </div>
-            </div>
-        </div>
-        <div class="header__border">
-            <div class="container header__container header__container_second-row d-flex justify-between align-center">
-                <nav class="header__nav">
-                    <ul class="header__nav-list d-flex">
-                        <li class="header__nav-item">
-                            <a class="header__nav-link header__nav-link_second-row" href="#">
-                                Новости
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link header__nav-link_second-row" href="#">
-                                Блоги
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link header__nav-link_second-row" href="#">
-                                Топы
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link header__nav-link_second-row" href="#">
-                                Опросы
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link header__nav-link_second-row" href="#">
-                                Рейтинги
-                            </a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-link header__nav-link_second-row" href="#">
-                                Реклама
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <ul class="header__broadcast-buttons-group d-flex">
-                    <li class="header__broadcast-item d-flex align-center">
-                        <button class="header__play-button button d-flex align-center">
-                            <img src="src/img/header/header__play-button.svg" alt="Лупа" class="header__search-img">  
-                        </button>
-                        <div class="header__broadcast-button-text-block">
-                            <span class="header__broadcast-button-text grey-text text-xs">
-                                Ранее в эфире
-                            </span>
-                            <h2 class="header__broadcast-button-title text-s">
-                                &laquo;Музыка&raquo;
-                            </h2>
-                        </div>
-                    </li>
-                    <li class="header__broadcast-item d-flex align-center">
-                        <button class="header__play-button button d-flex align-center">
-                            <img src="src/img/header/header__play-button.svg" alt="Лупа" class="header__search-img">  
-                        </button>
-                        <div class="header__broadcast-button-text-block">
-                            <span class="header__broadcast-button-text grey-text text-xs">
-                                Сейчас в эфире
-                            </span>
-                            <h2 class="header__broadcast-button-title text-s">
-                                &laquo;Как так?&raquo;
-                            </h2>
-                        </div>
-                    </li>
-    
-                </ul>
-                <div class="header__age-limit d-flex align-center justify-center">
-                    <div class="header__age-limit-text d-flex align-center justify-center">
-                        <span class="grey-text text-xs">
-                            12+
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <header class="header"></header>
 
-    <section class="section-hero">
-        <div class="container section-hero__container">
-            <div class="section-hero__content">
-                <h1 class="section-hero__title mb-1">
-                    Радио
-                    <span class="seciton-hero__title_light">
-                        W-Wawe
-                    </span>
-                </h1>
-                <p class="section-hero__text mb-2 text-m ">
-                    Привет, на связи W-Wawe! Раньше мы были изданием, а теперь пробуем себя в разоворном жанре. Говорим о музыке, политике, истории, науке и культуре. Здесь, помимо прямого эфира — архив передач и многое другое:)
+    <section class="section-hero"></section>
+
+    <section class="section-podcast"></section>
+
+    <section class="section-broadcast"></section>
+
+    <section class="section-guests">
+        <div class="container section-guests__container">
+            <div class="section-guests__header mb-4">
+                <h2 class="section-guests__title section-title mb-2">
+                    Гости
+                </h2>
+                <b class="section-guests__text-title d-inline-block mb-1"> 
+                    У нас бывают:
+                </b>
+                <p class="section-guests__text">
+                    Блогеры, арт-критики и деятели искусства, музыканты, молодые учёные и люди науки, историки, филологи и много других интересных гостей!
                 </p>
-                <button class="section-hero__button button button_big">
-                    Слушать эфир
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-podcast">
-        <div class="container section-podcast__container d-flex justify-center direction-column">
-            <h2 class="section-podcast__title section-title mb-4">
-                Подкасты
-            </h2>
-            <ul class="section-podcast__list">
-                <li class="section-podcast__item d-flex relative">
-                    <div class="section-podcast__left-content relative">
-                        <img src="src/img/section-podcast/section-podcast__item-one.jpg" alt="Картина" class="section-podcast__item-img">
-                        <span class="seciton-podcast__date-text absolute">
-                            14 июня
-                        </span>
-                    </div>
-                    <div class="section-podcast__right-content d-flex direction-column">
-                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
-                            <div class="section-podcast__right-content-left">
-                                <span class="section-podcast__time-text">
-                                    15:43
-                                </span>
-                                <h3 class="section-podcast__item-title">
-                                    Европа. XIX век
-                                </h3>
-                                <p class="section-podcast__author">
-                                    Дмитрий Гутенберг
-                                </p>
-                            </div>
-                            <button class="section-podcast__play-button button d-flex align-center">
-                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
+            </div> 
+            <div class="section-guests__content d-grid">
+                <div class="section-guests__content-left">
+                    <ul class="section-guests__items-list">
+                        <li class="section-guests__item">
+                            <button class="section-guests__accordion-button button d-flex align-center justify-between">
+                                <p> Блогеры </p>
+                                <img src="./src/img/section-guests/arrow.svg" alt="Arrow" srcset="">
                             </button>
-                        </div>
-                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">258</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">104</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">68</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="section-podcast__item d-flex relative">
-                    <div class="section-podcast__left-content relative">
-                        <img src="src/img/section-podcast/section-podcast__item-two.jpg" alt="Картина" class="section-podcast__item-img">
-                        <span class="seciton-podcast__date-text absolute">
-                            11 июня
-                        </span>
-                    </div>
-                    <div class="section-podcast__right-content d-flex direction-column">
-                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
-                            <div class="section-podcast__right-content-left">
-                                <span class="section-podcast__time-text">
-                                    5:32
-                                </span>
-                                <h3 class="section-podcast__item-title">
-                                    О музыке
-                                </h3>
-                                <p class="section-podcast__author">
-                                    Дмитрий Гутенберг
-                                </p>
-                            </div>
-                            <button class="section-podcast__play-button button d-flex align-center">
-                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
-                            </button>
-                        </div>
-                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">207</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">34</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">18</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="section-podcast__item d-flex relative">
-                    <div class="section-podcast__left-content relative">
-                        <img src="src/img/section-podcast/section-podcast__item-three.jpg" alt="Картина" class="section-podcast__item-img">
-                        <span class="seciton-podcast__date-text absolute">
-                            8 июня
-                        </span>
-                    </div>
-                    <div class="section-podcast__right-content d-flex direction-column">
-                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
-                            <div class="section-podcast__right-content-left">
-                                <span class="section-podcast__time-text">
-                                    8:54
-                                </span>
-                                <h3 class="section-podcast__item-title">
-                                    Люди сегодня
-                                </h3>
-                                <p class="section-podcast__author">
-                                    Анна Васильева
-                                </p>
-                            </div>
-                            <button class="section-podcast__play-button button d-flex align-center">
-                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
-                            </button>
-                        </div>
-                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">104</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">54</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">42</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="section-podcast__item d-flex relative">
-                    <div class="section-podcast__left-content relative">
-                        <img src="src/img/section-podcast/section-podcast__item-four.jpg" alt="Картина" class="section-podcast__item-img">
-                        <span class="seciton-podcast__date-text absolute">
-                            5 июня
-                        </span>
-                    </div>
-                    <div class="section-podcast__right-content d-flex direction-column">
-                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
-                            <div class="section-podcast__right-content-left">
-                                <span class="section-podcast__time-text">
-                                    9:04
-                                </span>
-                                <h3 class="section-podcast__item-title">
-                                    Хеллоу, Африка!
-                                </h3>
-                                <p class="section-podcast__author">
-                                    Пётр Дмитриевский
-                                </p>
-                            </div>
-                            <button class="section-podcast__play-button button d-flex align-center">
-                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
-                            </button>
-                        </div>
-                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">87</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">44</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">5</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="section-podcast__item d-flex relative">
-                    <div class="section-podcast__left-content relative">
-                        <img src="src/img/section-podcast/section-podcast__item-five.jpg" alt="Картина" class="section-podcast__item-img">
-                        <span class="seciton-podcast__date-text absolute">
-                            2 июня
-                        </span>
-                    </div>
-                    <div class="section-podcast__right-content d-flex direction-column">
-                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
-                            <div class="section-podcast__right-content-left">
-                                <span class="section-podcast__time-text">
-                                    7:03
-                                </span>
-                                <h3 class="section-podcast__item-title">
-                                    Обо всём
-                                </h3>
-                                <p class="section-podcast__author">
-                                    Пётр Дмитриевский
-                                </p>
-                            </div>
-                            <button class="section-podcast__play-button button d-flex align-center">
-                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
-                            </button>
-                        </div>
-                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">64</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">30</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">8</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="section-podcast__item d-flex relative">
-                    <div class="section-podcast__left-content relative">
-                        <img src="src/img/section-podcast/section-podcast__item-six.jpg" alt="Картина" class="section-podcast__item-img">
-                        <span class="seciton-podcast__date-text absolute">
-                            28 мая
-                        </span>
-                    </div>
-                    <div class="section-podcast__right-content d-flex direction-column">
-                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
-                            <div class="section-podcast__right-content-left">
-                                <span class="section-podcast__time-text">
-                                    9:15
-                                </span>
-                                <h3 class="section-podcast__item-title">
-                                    Физика цвета
-                                </h3>
-                                <p class="section-podcast__author">
-                                    Татьяна Флеганова
-                                </p>
-                            </div>
-                            <button class="section-podcast__play-button button d-flex align-center">
-                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
-                            </button>
-                        </div>
-                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">58</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">29</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">14</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="section-podcast__item d-flex relative">
-                    <div class="section-podcast__left-content relative">
-                        <img src="src/img/section-podcast/section-podcast__item-seven.jpg" alt="Картина" class="section-podcast__item-img">
-                        <span class="seciton-podcast__date-text absolute">
-                            22 мая
-                        </span>
-                    </div>
-                    <div class="section-podcast__right-content d-flex direction-column">
-                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
-                            <div class="section-podcast__right-content-left">
-                                <span class="section-podcast__time-text">
-                                    16:04
-                                </span>
-                                <h3 class="section-podcast__item-title">
-                                    Источник звука
-                                </h3>
-                                <p class="section-podcast__author">
-                                    Пётр Дмитриевский
-                                </p>
-                            </div>
-                            <button class="section-podcast__play-button button d-flex align-center">
-                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
-                            </button>
-                        </div>
-                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">55</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">20</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">12</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="section-podcast__item d-flex relative">
-                    <div class="section-podcast__left-content relative">
-                        <img src="src/img/section-podcast/section-podcast__item-eight.jpg" alt="Картина" class="section-podcast__item-img">
-                        <span class="seciton-podcast__date-text absolute">
-                            18 мая
-                        </span>
-                    </div>
-                    <div class="section-podcast__right-content d-flex direction-column">
-                        <div class="section-podcast__item-text d-flex mb-3 justify-between">
-                            <div class="section-podcast__right-content-left">
-                                <span class="section-podcast__time-text">
-                                    6:55
-                                </span>
-                                <h3 class="section-podcast__item-title">
-                                    Правила этикета
-                                </h3>
-                                <p class="section-podcast__author">
-                                    Татьяна Флеганова
-                                </p>
-                            </div>
-                            <button class="section-podcast__play-button button d-flex align-center">
-                                <img src="src/img/section-podcast/section-podcast__play-button.svg" alt="play" class="section-podcast__play-img">  
-                            </button>
-                        </div>
-                        <ul class="section-podcast__list-footer d-flex justify-left absolute">
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__plays-img.svg" alt="plays" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_plays">24</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__likes-img.svg" alt="likes" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_likes">54</span>
-                            </li>
-                            <li class="section-podcast__footer-item">
-                                <img src="src/img/section-podcast/section-podcast__shared-img.svg" alt="shared" class="section-podcast__item-img section-podcast__item-img_plays">  
-                                <span class="section-podcast__footer-item-text section-podcast__footer-item-text_shared">42</span>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-            <button class="section-podcast__button button button_big text-m">
-                Ещё подкасты
-            </button>
-
-        </div>
-    </section>
-
-    <section class="section-broadcast">
-        <div class="container section-broadcast__container">
-            <div class="section-broadcast__content d-flex">
-                <div class="section-broadcast__content-left d-flex direction-column justify-between">
-                    <div class="section-broadcast__author-block d-flex direction-column">
-                        <h2 class="section-broadcast__title section-title mb-4">
-                            Передачи
-                        </h2>
-                        <label class="section-broadcast__label mb-1" for="section-broadcast__author">
-                            Автор:
-                        </label>
-                        <select class="section-broadcast__author select" type="select" name="section-broadcast__author" id="section-broadcast__author">
-                            <option selected>
-                                Дмитрий Гутенберг
-                            </option>
-                            <option value="Выбор_2">Выбор 2</option>
-                            <option value="Выбор_3">Выбор 3</option>
-                        </select>
-                    </div>
-                    <div class="section-broadcast__content-left-footer">
-                        <button class="section-broadcast__button button button_small mb-2">
-                            Архив
-                        </button>
-                        <p class="section-broadcast__footer-text grey-text">
-                            В архив попадают все передачи, которые вы пропустили! Enjoy:)
-                        </p>
-                    </div>
-                </div>
-                <div class="section-broadcast__content-right">
-                    <ul class="section-broadcast__list">
-                        <li class="section-broadcast__item section-broadcast__item_one">
-                            <h3 class="section-broadcast__item-title">
-                                О людях и книгах
-                            </h3>
-                            <p class="section-broadcast__item-announcement grey-text mb-3">
-                                Аннонсируется отдельно
-                            </p>
-                            <a class="section-broadcast__item-link" href="#">
-                                Подробнее
-                            </a>
-                        </li>
-                        <li class="section-broadcast__item section-broadcast__item_two">
-                            <h3 class="section-broadcast__item-title">
-                                Графомания td
-                            </h3>
-                            <p class="section-broadcast__item-announcement grey-text mb-3">
-                                По понедельникам в 10:00
-                            </p>
-                            <a class="section-broadcast__item-link" href="#">
-                                Подробнее
-                            </a>
-                        </li>
-                        <li class="section-broadcast__item section-broadcast__item_three">
-                            <h3 class="section-broadcast__item-title">
-                                Не Рим, не Троя
-                            </h3>
-                            <p class="section-broadcast__item-announcement grey-text mb-3">
-                                По вторникам в 12:00
-                            </p>
-                            <a class="section-broadcast__item-link" href="#">
-                                Подробнее
-                            </a>
-                        </li>
-                        <li class="section-broadcast__item section-broadcast__item_four">
-                            <h3 class="section-broadcast__item-title">
-                                Эрудит
-                            </h3>
-                            <p class="section-broadcast__item-announcement grey-text mb-3">
-                                По пятницам в 17:00
-                            </p>
-                            <a class="section-broadcast__item-link" href="#">
-                                Подробнее
-                            </a>
-                        </li>
-                        <li class="section-broadcast__item section-broadcast__item_five">
-                            <h3 class="section-broadcast__item-title">
-                                Тонкости эпох
-                            </h3>
-                            <p class="section-broadcast__item-announcement grey-text mb-3">
-                                По субботам в 10:00
-                            </p>
-                            <a class="section-broadcast__item-link" href="#">
-                                Подробнее
-                            </a>
-                        </li>
-                        <li class="section-broadcast__item section-broadcast__item_six">
-                            <h3 class="section-broadcast__item-title">
-                                Живые мысли
-                            </h3>
-                            <p class="section-broadcast__item-announcement grey-text mb-3">
-                                По воскресеньям в 15:30
-                            </p>
-                            <a class="section-broadcast__item-link" href="#">
-                                Подробнее
-                            </a>
+                            <ul class="seciton-guests__names-list d-none">
+                                <li class="seciton-guests__name">
+                                    <button class="sectin-guests__name-button button">
+                                        Сергей Денисов
+                                    </button>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
+                <div class="section-guests__content-right">
+                    <img src="./src/img/section-guests/card-image.png" alt="Ольга Мартынова" class="mb-1">
+                    <ul class="section-guests__social-links d-flex mb-1">
+                        <li class="section-guests__social-link">
+                            <a href="#">
+                                <img src="./src/img/section-guests/instagram.svg" class="section-guests__social-img" alt="instagramm">
+                            </a>
+                        </li>
+                        <li class="section-guests__social-link">
+                            <a href="#">
+                                <img src="./src/img/section-guests/facebook.svg" class="section-guests__social-img" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="section-guests__social-link">
+                            <a href="#">
+                                <img src="./src/img/section-guests/twitter.svg" class="section-guests__social-img" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+                    <h3 class="section-guests__card-name mb-1">
+                        Ольга Мартынова
+                    </h3>
+                    <p class="section-guests__card-text mb-4">
+                        Российский искусствовед, арт-критик, куратор выставок, дизайнер, кандидат культурологии. Арт-критик газеты «Коммерсантъ». Ведёт активную блогерскую деятельность как куратор музея «Гараж», коим является с 2016 года.
+                    </p>
+                    <a href="#" class="section-guests__card-link d-flex align-center justify-center">
+                        Эфиры с гостем
+                    </a>
+                </div>
             </div>
         </div>
     </section>
+
+
+    <script src="./src/plugins/choices.min.js"></script>
+	<script src="./src/plugins//script.js"></script>
     
 </body>
 </html>

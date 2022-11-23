@@ -1,0 +1,13 @@
+@import url(./__text/section-guests__text.css);
+@import url(./__content/section-guests__content.css);
+@import url(./__accordion-button/section-guests__accordion-button.css);
+@import url(./__social-link/section-guests__social-link.css);
+@import url(./__card-link/section-guests__card-link.css);
+
+.section-guests {
+    background-color: var(--black-color);
+}
+
+.section-guests * {
+    color: var(--white-color);
+}
