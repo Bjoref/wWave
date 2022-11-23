@@ -1,0 +1,3 @@
+.section-guests__item.opened-accordion > .seciton-guests__names-list {
+    display: grid;
+}

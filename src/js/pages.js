@@ -16,3 +16,4 @@ getSection('../../pages/header.html', 'header');
 getSection('../../pages/section-hero.html', 'section-hero');
 getSection('../../pages/section-podcast.html', 'section-podcast');
 getSection('../../pages/section-broadcast.html', 'section-broadcast');
+getSection('../../pages/section-guests.html', 'section-guests');

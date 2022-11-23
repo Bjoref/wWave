@@ -3,6 +3,10 @@
 @import url(./__accordion-button/section-guests__accordion-button.css);
 @import url(./__social-link/section-guests__social-link.css);
 @import url(./__card-link/section-guests__card-link.css);
+@import url(./__arrow-img/section-guests__arrow-img.css);
+@import url(./__names-list/seciton-guests__names-list.css);
+@import url(./__name-button/section-guests__name-button.css);
+@import url(./__item/section-guests__item.css);
 
 .section-guests {
     background-color: var(--black-color);
